@@ -15,10 +15,9 @@
     --primary-bg: #ffffff;
     --title-logo: #000000;
     --footer-logo: #ffffff;
-    --footer-bg: #2F303A;
-    --team-section-bg: #F5F4FA;
+    --footer-bg: #2f303a;
+    --team-section-bg: #f5f4fa;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -32,6 +31,12 @@ body {
     width: 1600px;
     height: 80px;
     margin: 0px 0px 0px 0px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #ECECEC;
 }
 
 /* Main properties Logo */
@@ -183,12 +188,11 @@ body {
     justify-content: space-between;
 }
 
-.list-features >li {
-width: 270px;
+.list-features>li {
+    width: 270px;
 }
 
 .title-features-article {
-    
     color: var(--title-text);
     font-style: normal;
     font-weight: 700;
@@ -196,24 +200,21 @@ width: 270px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 
 .text-features {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
-
 
 /* Styles for section Works */
 
 .works {
     margin: 94px 215px 0px 215px;
 }
-
 
 .title {
     font-style: normal;
@@ -255,7 +256,6 @@ letter-spacing: 0.03em;
     color: var(--title-logo);
     margin-bottom: 50px;
     margin-top: 0px;
-    
 }
 
 .list-team {
@@ -275,11 +275,10 @@ letter-spacing: 0.03em;
 .card-team {
     background-color: var(--primary-bg);
     width: 270px;
-    height: 368px;
-           
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 386px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -300,7 +299,6 @@ letter-spacing: 0.03em;
     height: 192px;
     padding-top: 60px;
     padding-left: 215px;
-
 }
 
 .footer-logo {
@@ -311,7 +309,6 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: var(--accent-logo);
     text-decoration: none;
-
 }
 
 /* Color Logo in Footer */
@@ -353,4 +350,97 @@ letter-spacing: 0.03em;
 .link-footer:hover,
 .link-footer:focus {
     color: var(--accent-logo);
+}
+
+/* Styles for page Portfolio.html */
+
+.buttons-section {
+    width: 611px;
+    margin-left: 600px;
+
+}
+
+.title-container {
+    display: none;
+    margin: 0px;
+
+}
+
+.list-buttons {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-inline-start: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.button-filter {
+    background-color: var(--team-section-bg);
+    color: var(--title-text);
+    border-radius: 4px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px 6px 22px;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-logo);
+    color: var(--footer-logo);
+    
+}
+
+.container {
+width: 1170px;
+height: 1360px;
+margin-left: 297px;
+
+}
+
+.list-card-project {
+list-style-type: none;
+text-decoration: none;
+padding-inline-start: 0px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: space-between;
+align-items: center;
+margin: 0px;
+}
+
+.card-project {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    padding: 20px 24px 20px 24px;
+}
+
+.item-card-project {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-logo);
+    margin: 0px;
+}
+
+.card-container >p {
+    margin: 0px;
 }
