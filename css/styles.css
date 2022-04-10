@@ -112,7 +112,7 @@ body {
 }
 
 .link.email {
-  color: var(--accent-logo);
+  color: var(--primary-text);
   padding-left: 305px;
 }
 
