@@ -376,7 +376,7 @@ body {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 50px;
-    
+
 }
 
 .button-filter {
@@ -397,27 +397,27 @@ body {
 .button-filter:focus {
     background-color: var(--accent-logo);
     color: var(--footer-logo);
-    
+
 }
 
 .container {
-width: 1170px;
-height: 1360px;
-margin-left: 297px;
+    width: 1170px;
+    height: 1360px;
+    margin-left: 297px;
 
 }
 
 .list-card-project {
-list-style-type: none;
-text-decoration: none;
-padding-inline-start: 0px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-align-content: space-between;
-align-items: center;
-margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin: 0px;
 }
 
 .card-project {
@@ -441,6 +441,6 @@ margin: 0px;
     margin: 0px;
 }
 
-.card-container >p {
+.card-container>p {
     margin: 0px;
 }
