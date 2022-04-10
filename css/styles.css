@@ -17,6 +17,7 @@
   --footer-logo: #ffffff;
   --footer-bg: #2f303a;
   --team-section-bg: #f5f4fa;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -42,7 +43,6 @@ body {
 /* Main properties Logo */
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -77,6 +77,10 @@ body {
 .link:hover,
 .link:focus {
   color: var(--accent-logo);
+} 
+
+.current-link {
+  color: var(--accent-logo);
 }
 
 /* Orientation elements inside nav-menu */
@@ -84,10 +88,9 @@ body {
   display: contents;
   list-style-type: none;
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -102,29 +105,30 @@ body {
   text-decoration: none;
   align-items: flex-start;
   justify-content: space-between;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
 .link.email {
+  color: var(--accent-logo);
   padding-left: 305px;
+}
+
+.link.phone {
+  color: var(--primary-text);
 }
 
 .nav-contacts > li {
   margin: 32px 25px 32px 25px;
 }
 
-.nav-contacts .link {
-  color: var(--primary-text);
-}
-
 .nav-contacts .link:hover,
 .nav-contacts .link:focus {
   color: var(--accent-logo);
 }
+
 
 /* styles for MAIN */
 
@@ -140,10 +144,9 @@ body {
 .hero-title {
   width: 696px;
   height: 120px;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -159,10 +162,10 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   justify-content: center;
   letter-spacing: 0.06em;
   border: 0px;
@@ -194,19 +197,16 @@ body {
 
 .title-features-article {
   color: var(--title-text);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .text-features {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
@@ -217,10 +217,9 @@ body {
 }
 
 .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-logo);
@@ -247,10 +246,9 @@ body {
 }
 
 .title-team {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-logo);
@@ -283,10 +281,9 @@ body {
 }
 
 .name-people {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text);
@@ -303,7 +300,6 @@ body {
 
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -318,6 +314,7 @@ body {
 
 .footer-contacts {
   display: flex;
+  font-style: normal;
   list-style-type: none;
   align-items: flex-start;
   justify-content: flex-start;
@@ -334,23 +331,25 @@ body {
 .link-address {
   text-decoration: none;
   color: var(--footer-logo);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .link-footer {
-  color: var(--primary-text);
+  color: var(--footer-contacts-color);
   text-decoration: none;
-  font-style: normal;
 }
 
 .link-footer:hover,
 .link-footer:focus {
   color: var(--accent-logo);
 }
+
+
+
+
 
 /* Styles for page Portfolio.html */
 
@@ -381,10 +380,10 @@ body {
   color: var(--title-text);
   border-radius: 4px;
   border: 0px;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
@@ -430,10 +429,9 @@ body {
 }
 
 .item-card-project {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-logo);
   margin: 0px;
